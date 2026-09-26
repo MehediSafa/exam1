@@ -11,10 +11,10 @@ const {
 
 
 router.post('/',createStudent)
-router.get('/',getAllSttudents)
-router.get('/:id',getStudendById)
+router.get('/',getAllStudents)
+router.get('/:id',getStudentById)
 router.patch('/:id',updateStudent)
-router.delete('/:id',deleteStudent)
+// router.delete('/:id',deleteStudent)
 
-module.express = router
+module.exports = router
 
